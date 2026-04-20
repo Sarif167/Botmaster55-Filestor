@@ -39,7 +39,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID", 23621595))
 	API_HASH = os.environ.get("API_HASH", "de904be2b4cd4efe2ea728ded17ca77d")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "SpyRadioHDbot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002904920278))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1249672673"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","")
